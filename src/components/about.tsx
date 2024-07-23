@@ -1,7 +1,7 @@
 'use client'
 import * as fonts from '@/fonts/fonts';
 import Link from "next/link";
-import myPhoto from '/public/photo.png'
+import photo from '/public/photo.jpg'
 import Image from 'next/image';
 
 export default function About() {
@@ -12,12 +12,12 @@ export default function About() {
         About me
       </h2>
       <div className="lg:hidden relative z-10 h-[100px] md:h-[150px] bg-white w-[100px] border-black">
-          <Image className='absolute top-0 left-0 w-full h-full' src={myPhoto} alt="myPhoto" style={{ objectFit: 'cover' }} />
+          <Image className='absolute top-0 left-0 w-full h-full' src={photo} alt="myPhoto" style={{ objectFit: 'cover' }} />
           <div className="absolute -z-10 h-full w-full top-[10px] left-[15px] border border-white" />
         </div>
       <div className="pb-10 flex max-lg:flex-col max-lg:gap-8 items-center justify-evenly">
         <div className="max-lg:hidden relative z-10 h-[250px] bg-white w-[200px] mx-12 border-black">
-          <Image className='absolute top-0 left-0 w-full h-full' src={myPhoto} alt="myPhoto" style={{ objectFit: 'cover' }} />
+          <Image className='absolute top-0 left-0 w-full h-full' src={photo} alt="myPhoto" style={{ objectFit: 'cover' }} />
           <div className="absolute -z-10 h-full w-full top-[10px] left-[15px] border border-white" />
         </div>
         <div className=" w-[80%] lg:w-[40%]">
