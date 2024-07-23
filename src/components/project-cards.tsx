@@ -4,7 +4,7 @@ import { StaticImageData } from "next/image";
 import { ReactNode, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaExternalLinkAlt, FaGithub, FaCss3, FaReact, FaJava } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub, FaCss3, FaReact, FaJava, FaNodeJs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 
 interface ProjectCardProps {
@@ -17,7 +17,8 @@ interface ProjectCardProps {
     react?: boolean,
     typescript?: boolean,
     css?: boolean,
-    java?: boolean
+    java?: boolean,
+    node?: boolean
 }
 
 export default function ProjectCard(props: ProjectCardProps) {
@@ -44,7 +45,7 @@ export default function ProjectCard(props: ProjectCardProps) {
                     </div>}
                 <p className="text-xs md:text-base lg:text-lg ">{props.text}</p>
                 <div className="flex text-xs md:text-base lg:text-lg xl:text-xl gap-2 items-center justify-between">
-                    {props.react ? <FaReact /> : null} {props.java ? <FaJava /> : null} {props.css ? <FaCss3 /> : null} {props.typescript ? <SiTypescript /> : null}
+                    {props.react ? <FaReact /> : null} {props.java ? <FaJava /> : null} {props.css ? <FaCss3 /> : null} {props.typescript ? <SiTypescript /> : null} {props.node ? <FaNodeJs/> : null}
                     {" | "}
                     {!!props.urlGit ? <Link href={props.urlGit} className="hover:text-[#E55604]"><FaGithub /></Link> : null}
                 </div>

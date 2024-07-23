@@ -22,6 +22,9 @@ export default function Projects() {
       <div className='h-[25%] w-[80%] lg:w-[70%]'>
         <ProjectCard title="ShootUp" java icon={<FaAppleWhole />} text="My first game in Java! Shoot the apples to get points and avoid to touch them. Don't shoot the bombs!!" urlGit='https://github.com/tomavasi/shootUp' />
       </div>
+      <div className='h-[25%] w-[80%] lg:w-[70%]'>
+        <ProjectCard title="Back-end project" node icon={<FaAppleWhole />} text="A back-end implementation meant for the LQS-project. User authentication by log in. Possibility to sign up and delete user. Connection with MongoDB" urlGit='https://github.com/tomavasi/backend-project' />
+      </div>
       <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 w-[100px] h-[100px] dotsOrange" />
     </div>
 
