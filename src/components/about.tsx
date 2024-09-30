@@ -22,17 +22,14 @@ export default function About() {
         </div>
         <div className=" w-[80%] lg:w-[40%]">
           <h3 className="font-[700] text-base md:text-xl lg:text-2xl">
-            Hello! I am Vasilis a software developer currently working as an IT Consultant!
+            Hello! I am Vasilis a software developer currently diving into the world of DevOps engineering!
           </h3>
           <p className="text-justify  mt-2 text-xs md:text-base">
-            Grown up in Greece and the last 8 years based in Amsterdam. Always passionated about technology
-            but up until in recent years didn&apos;t explore the fascinating path of software developement. Started off with various online courses such as
-            mobile app developement to the Meta front-end course. Finally this path led me to Qquest where i followed a two month IT traineeship.
-            At the moment looking for a nice project where i can start my journey!
+          I grew up in Greece and have been living in Amsterdam for the past eight years. While I’ve always been passionate about technology, it wasn’t until recently that I fully embraced the world of software development. My journey began with various online courses, including mobile app development and the Meta Front-End Developer course. These experiences ultimately led me to Qquest, where I completed a two-month IT traineeship. Now, I’m excited to embark on my software development journey and am actively seeking a challenging project where I can apply and grow my skills.
           </p>
-          <p className=" text-justify mt-2 text-xs md:text-base lg:text-lg">
+          {/* <p className=" text-justify mt-2 text-xs md:text-base lg:text-lg">
             Do you have or know any fitting project? Contact <Link className="text-[#26577C] hover:text-[#E55604] font-[600] relative" href='mailto: tomaras.vasi@outlook.com'>me</Link> or directly <Link className="relative text-[#26577C] hover:text-[#E55604] font-[600]" href='https://www.qquest.nl/sales-contact/'>Qquest!</Link>
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 rounded-full w-[100px] h-[100px] dotsOrange" />
